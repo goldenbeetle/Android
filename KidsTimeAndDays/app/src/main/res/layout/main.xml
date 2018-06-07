@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" 
+    android:gravity="center" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    <Button android:id="@+id/play_button" android:text="@string/play" style="@style/CustomButton" />
+    <Button android:id="@+id/preferences_button" android:text="@string/preferences" style="@style/CustomButton" />
+    <Button android:id="@+id/more_games_button" android:text="@string/more_games" style="@style/CustomButton" />
+</LinearLayout>

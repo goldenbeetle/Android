@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_button_margin">10.0dip</dimen>
+    <dimen name="menu_button_padding">12.0dip</dimen>
+    <dimen name="menu_button_width">400.0dip</dimen>
+    <dimen name="menu_text_size">40.0dip</dimen>
+</resources>

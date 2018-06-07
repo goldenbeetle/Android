@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/settings_general">
+        <CheckBoxPreference android:title="@string/enable_shake" android:key="shake_enabled" android:summary="@string/enable_shake_summary" android:defaultValue="true" />
+	    <CheckBoxPreference android:title="@string/quiz_mode" android:key="quiz_mode_enabled" android:summary="@string/quiz_mode_summary" android:defaultValue="false" />
+	    <CheckBoxPreference android:title="@string/random_quiz_mode" android:key="random_quiz_mode_enabled" android:summary="@string/random_quiz_mode_summary" android:defaultValue="false" />
+	    <ListPreference android:key="itemdisplaymode_day" android:entries="@array/setting_for_displaymode" android:title="@string/pref_dmday" android:summary="@string/pref_dm_summary" android:defaultValue="1" android:entryValues="@array/value_for_displaymode" />
+        <ListPreference android:key="itemdisplaymode_mon" android:entries="@array/setting_for_displaymode" android:title="@string/pref_dmmon" android:summary="@string/pref_dm_summary" android:defaultValue="0" android:entryValues="@array/value_for_displaymode" />
+	    <CheckBoxPreference android:title="@string/pref_itemtext" android:key="itemtext_caps" android:defaultValue="false" />
+	</PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/settings_clock" >
+        <ListPreference android:key="clk_clockdial" android:entries="@array/setting_for_clockdial" android:title="@string/pref_clockdial" android:defaultValue="0" android:entryValues="@array/value_for_clockdial" />
+        <ListPreference android:key="clk_min_selecttime" android:entries="@array/setting_for_selecttime" android:title="@string/pref_timeselect" android:defaultValue="15" android:entryValues="@array/value_for_selecttime" />
+        <ListPreference android:key="clk_min_timediff" android:entries="@array/setting_for_timediff" android:title="@string/pref_timediff" android:defaultValue="30" android:entryValues="@array/value_for_timediff" />
+        <ListPreference android:key="clk_min_timeadd" android:entries="@array/setting_for_timeadd" android:title="@string/pref_timeadd" android:defaultValue="15" android:entryValues="@array/value_for_timeadd" />
+    </PreferenceCategory>    
+</PreferenceScreen>

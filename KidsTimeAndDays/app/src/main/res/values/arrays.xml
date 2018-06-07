@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_for_clockdial">
+        <item>Numeric Dial</item>
+        <item>Roman Numeral Dial</item>
+        <item>Plain Dial</item>
+	</string-array>
+    <string-array name="value_for_clockdial">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+	</string-array>    
+    <string-array name="setting_for_selecttime">
+        <item>Very Easy - Minutes Always 0</item>
+        <item>Easy - Minutes Multiple Of 30</item>
+        <item>Medium - Minutes Multiple Of 15</item>
+        <item>Hard - Minutes Multiple Of 10</item>
+        <item>Very Hard - Minutes Multiple Of 5</item>
+        <item>Expert - Any Minutes</item>
+	</string-array>
+    <string-array name="value_for_selecttime">
+        <item>0</item>
+        <item>30</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+	</string-array>
+    <string-array name="setting_for_timediff">
+        <item>Very Easy - Minutes Always 0</item>
+        <item>Easy - Minutes Multiple Of 30</item>
+        <item>Medium - Minutes Multiple Of 15</item>
+        <item>Hard - Minutes Multiple Of 10</item>
+        <item>Very Hard - Minutes Multiple Of 5</item>
+        <item>Expert - Any Minutes</item>
+	</string-array>
+    <string-array name="value_for_timediff">
+        <item>0</item>
+        <item>30</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+	</string-array>
+    <string-array name="setting_for_timeadd">
+        <item>Very Easy - Minutes Always 0</item>
+        <item>Easy - Minutes Multiple Of 30</item>
+        <item>Medium - Minutes Multiple Of 15</item>
+        <item>Hard - Minutes Multiple Of 10</item>
+        <item>Very Hard - Minutes Multiple Of 5</item>
+        <item>Expert - Any Minutes</item>
+	</string-array>
+    <string-array name="value_for_timeadd">
+        <item>0</item>
+        <item>30</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+	</string-array>
+    <string-array name="setting_for_displaymode">
+        <item>Normal Text</item>
+        <item>Fancy Balloons</item>
+        <item>Mixed Mode</item>
+	</string-array>
+    <string-array name="value_for_displaymode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+	</string-array>	
+</resources>
