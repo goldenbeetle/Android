@@ -1,4 +1,0 @@
-#Thu Jun 07 15:29:44 IST 2018
-base.0=F\:\\Android Projects\\Git\\KidsTimeAndDays\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
-path.0=classes.dex
-renamed.0=classes.dex
