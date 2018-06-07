@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathGame", "Assembly-CSharp-firstpass.csproj", "{DA94E744-7FC7-9AE2-2AE9-0D22E0EE7AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathGame", "Assembly-CSharp.csproj", "{580731C0-E08B-11CA-2F40-2B15A3F2B735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA94E744-7FC7-9AE2-2AE9-0D22E0EE7AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA94E744-7FC7-9AE2-2AE9-0D22E0EE7AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA94E744-7FC7-9AE2-2AE9-0D22E0EE7AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA94E744-7FC7-9AE2-2AE9-0D22E0EE7AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580731C0-E08B-11CA-2F40-2B15A3F2B735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580731C0-E08B-11CA-2F40-2B15A3F2B735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580731C0-E08B-11CA-2F40-2B15A3F2B735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580731C0-E08B-11CA-2F40-2B15A3F2B735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
