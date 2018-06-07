@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_publishar_id" />
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/header_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/titlebar" >
+
+        <com.ui.CustomTitleTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/title_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/adView"
+        android:layout_below="@id/titleLayout"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/newGameButton"
+                            android:layout_width="@dimen/button_size"
+                            android:layout_height="@dimen/button_size"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/start_button" />
+
+                        <Button
+                            android:id="@+id/settingButton"
+                            android:layout_width="@dimen/button_size"
+                            android:layout_height="@dimen/button_size"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/button_margin_left"
+                            android:background="@drawable/game_settings_button" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/button_margin_top" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/scoreButton"
+                            android:layout_width="@dimen/button_size"
+                            android:layout_height="@dimen/button_size"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/highest_score_button" />
+
+                        <Button
+                            android:id="@+id/leaderBoardButton"
+                            android:layout_width="@dimen/button_size"
+                            android:layout_height="@dimen/button_size"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/button_margin_left"
+                            android:background="@drawable/leader_board_button" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/button_margin_top" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/helpButton"
+                            android:layout_width="@dimen/large_button_size"
+                            android:layout_height="@dimen/button_size"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/fifth_button_marginleft"
+                            android:background="@drawable/instruction_button" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

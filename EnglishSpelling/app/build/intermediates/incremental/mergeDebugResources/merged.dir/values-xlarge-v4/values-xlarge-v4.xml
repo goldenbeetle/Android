@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">50%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">70%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">45%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">72%</item>
+    <dimen name="button_hdpi_hight">100px</dimen>
+    <dimen name="button_hdpi_width">360px</dimen>
+    <dimen name="button_margin_left">50dp</dimen>
+    <dimen name="button_margin_top">35dp</dimen>
+    <dimen name="button_size">160dp</dimen>
+    <dimen name="fifth_button_marginleft">25dp</dimen>
+    <dimen name="header_height">70dp</dimen>
+    <dimen name="large_button_size">320dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="sub_title_text_size">28dp</dimen>
+    <dimen name="title_text_size">35dp</dimen>
+</resources>

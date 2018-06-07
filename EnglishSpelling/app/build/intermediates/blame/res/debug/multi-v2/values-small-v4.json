@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Android Projects\\Git\\EnglishSpelling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "map": [
+                {
+                    "source": "F:\\Android Projects\\Git\\EnglishSpelling\\app\\src\\main\\res\\values-small\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,3",
+                        "startOffsets": "55,100",
+                        "endColumns": "40,48",
+                        "endOffsets": "93,145"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,98",
+                        "endColumns": "42,49",
+                        "endOffsets": "93,143"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Android Projects\\WordGame22\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "map": [
+                {
+                    "source": "F:\\Android Projects\\WordGame22\\app\\src\\main\\res\\values-small\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,3",
+                        "startOffsets": "55,100",
+                        "endColumns": "40,48",
+                        "endOffsets": "93,145"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,98",
+                        "endColumns": "42,49",
+                        "endOffsets": "93,143"
+                    }
+                }
+            ]
+        }
+    ]
+}

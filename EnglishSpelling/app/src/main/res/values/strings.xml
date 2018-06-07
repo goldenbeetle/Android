@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">English Spellings - Advanced</string>
+    <string name="menu_settings">Settings</string>
+    <string name="quiz_size_prompt">Select Quiz Size</string>
+    <string name="settings_game_label_title">Difficulty Level</string>
+    <string name="ad_publishar_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="msg_nonet_title">No Internet Connection</string>
+    <string name="msg_nonet_content">Please make sure your device is connected to either WiFi or your Mobile Network and try again.</string>
+    <string name="btn_ok">OK</string>    
+</resources>
